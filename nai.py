@@ -50,7 +50,7 @@ def analyze_risk(symptom_text):
         }
 
 with st.sidebar:
-  st.image("Catai.png", width=100)
+  st.image("catai.png", width=100)
   st.header("🧩Navigation Menu")
   page = st.sidebar.radio(
      "Select Feature:",
